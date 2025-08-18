@@ -1,0 +1,182 @@
+/* Global */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f0f0f;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4 {
+    color: #00bcd4;
+    font-weight: 600;
+  }
+  
+  /* Hero Section */
+  header#hero {
+    background:  url('https://images6.alphacoders.com/137/thumb-1920-1370925.jpeg') no-repeat center center/cover;
+    color: #fff;
+
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  header#hero h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  
+  header#hero p {
+    font-size: 1.2rem;
+    color: #00bcd4;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 60px 15px;
+  }
+  
+  section.bg-light {
+    background-color: #1f1f1f !important;
+  }
+  
+  /* Cards */
+  .card {
+    background-color: #1a1a1a;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff;
+    border-radius: 12px;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 255, 255, 0.418);
+    cursor: pointer;
+  }
+  
+  .card-title {
+    color: #00bcd4;
+  }
+  .card ul {
+    padding-left: 1.2rem;
+    font-size: 0.95rem;
+  }
+  
+  .card h6 {
+    font-size: 0.85rem;
+    color: #cccccc;
+  }.text-muted {
+    color: rgba(255, 255, 255, 0.377) !important;  /* White with reduced opacity */
+  }
+
+  /* Portfolio Images */
+  .card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  /* Links */
+  a {
+    color: #00bcd4;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Custom Button Style */
+  .btn-primary {
+    background-color: #00bcd4;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0097a7;
+  }
+  
+  /* Smooth Section Divider */
+  section:not(:last-child) {
+    border-bottom: 1px solid #333;
+  }
+  
+  /* Responsive Text Sizes */
+  @media (max-width: 768px) {
+    header#hero h1 {
+      font-size: 2.2rem;
+    }
+    header#hero p {
+      font-size: 1rem;
+    }
+  }
+  
+ #resume{
+    padding: 50px;
+  }
+  .collg{
+    padding: 10px;
+  }
+  .btn-info:hover {
+    background-color: #0277bd;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .skills-slider-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .skills-slider {
+    display: flex;
+    gap: 1rem;
+    animation: scrollSkills 20s linear infinite;
+  }
+  
+  .skill-card {
+    flex: 0 0 auto;
+    background-color: transparent;
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    transition: transform 0.3s ease;
+    white-space: nowrap;
+     width: 150px;
+     height: 150px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+  }
+  
+  
+.skill-card img {
+  width: 60px;
+  height: 60px;
+}
+
+
+  .skill-card:hover {
+    transform: scale(1.1);
+    background-color: #70dfed;
+    color: black;
+  }
+  
+  @keyframes scrollSkills {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
