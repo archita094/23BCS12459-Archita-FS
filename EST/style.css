@@ -1,0 +1,58 @@
+body{
+background: radial-gradient(white, #121781e3, rgb(0, 0, 0));      
+      font-family: sans-serif;
+      color:white;
+      padding:20px;
+      margin:150px;
+      margin-top:20px;
+    }
+    #title ,#description
+    {
+      text-align: center;
+      margin-bottom:20px;
+    }
+    #description{
+    font-style:italic;
+    }
+    #title{
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    .btn{
+      padding: 7px;
+      margin: 10px;
+      border-radius: 15px;
+      border: none;
+      width: 60px;
+      color: white;
+      background:linear-gradient(130deg,rgb(1, 1, 53),rgb(99, 99, 212)) ;
+    }
+    .btn:hover{
+      background:linear-gradient(130deg,rgb(99, 99, 212),rgb(1, 1, 53)) ;
+      transform: scale(1.1);
+    }
+    #improv{
+      margin-bottom:10px;
+      margin-top:10px;
+    }
+    #survey-form{
+      width: 30%;
+      max-width: 600px;
+      background-color:#b8d8ff6e ;
+      margin: 0 auto;
+      padding:50px;
+      border-radius:50px;
+    }
+    .rating{
+      margin-bottom:5px;
+    }
+    label{
+      margin-bottom:5px;
+      display:block;
+      
+    }
+    .opt{
+      margin-bottom:5px;
+      display:block;
+    }
